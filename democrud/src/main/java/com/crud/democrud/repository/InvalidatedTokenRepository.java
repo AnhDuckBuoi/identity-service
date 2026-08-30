@@ -1,0 +1,9 @@
+package com.crud.democrud.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.crud.democrud.entity.InvalidatedToken;
+
+@Repository
+public interface InvalidatedTokenRepository extends JpaRepository<InvalidatedToken, String> {}

@@ -1,0 +1,14 @@
+package com.crud.democrud.entity;
+
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class Authentication {
+    String username;
+    String password;
+}
